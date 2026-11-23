@@ -18,7 +18,8 @@ Your transactional dataset includes many missing values. Find and address (in yo
 ### Question 4 — Extracting the Country Values
 To apply broader breakdowns of your transactional dataset, it will be helpful to add a country column. Recall that the metadata indicates the country information is somewhat captured in the site column. 
 
-Create a new `country` column by using the `manufacturing_site` information. To do so, you will need the helper function [`str.startswith()`](https://pydata.org), which is defined for a pandas `Series` object. As the documentation states, `str.startswith()` tests if the start of each string element matches a given pattern.
+Create a new `country` column by using the `manufacturing_site` information. To do so, you will need the helper function [`str.startswith()`](https://pydata.org), which is defined for a pandas `Series` object.
+As the documentation states, `str.startswith()` tests if the start of each string element matches a given pattern.
 
 ---
 
